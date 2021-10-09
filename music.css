@@ -12,6 +12,18 @@
 .Color{
     color: yellow;
 }
+@media screen and (max-width: 377px) {
+    #logo {
+      justify-content: center;
+      text-align: center;
+      align-items: center;
+      width: 100px;
+      height: 40px;
+    }
+    .Color{
+        font-size: 32px;
+    }
+  }
 
 .secnav{
     padding: 6px 20px;
